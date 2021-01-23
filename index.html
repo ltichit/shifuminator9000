@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link rel="stylesheet" href="style.css">
+        <title>Shifuminator 9000</title>
+    </head>
+    <body>
+	
+	<script src="script.js"></script>
+	
+	<div class="center">
+
+		<h1>Shifuminator 9000</h1>	
+
+		<img class="image" src="feuille.jpg" alt="feuille" onclick="input(this.alt)"></img>
+		<img class="image" src="pierre.jpg" alt="pierre" onclick="input(this.alt)"></img>
+		<img class="image" src="ciseaux.jpg" alt="ciseaux" onclick="input(this.alt)"></img>
+		
+		<p id="result"></p>
+		
+		<p id="score">
+			<table class="tableScore">
+				<thead>
+					<tr>
+						<th colspan="2">Score</th>
+					</tr>
+				</thead>
+				<tr>
+					<td>Vous</td>
+					<td>CPU</td>
+				</tr>
+				<tr>
+					<td id="scoreJoueur">0</td>
+					<td id="scoreCpu">0</td>
+				</tr>
+
+			</table>
+		</p>
+		
+		<button onclick="resetScore()">reset</button>
+
+	</div>
+	
+	Contactez l'auteur: <a href="mailto:ltichit@gmail.com">ltichit@gmail.com</a>
+			
+	</body>
+</html>

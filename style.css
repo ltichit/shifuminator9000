@@ -1,0 +1,40 @@
+/* change la couleur de la page */
+body {
+  background-color: lightblue;
+}
+
+/* change la couleur du tag H1 */
+h1 {
+  color: navy;
+}
+
+/* centre l'element qui utilise ce style */
+.center {
+	text-align: center;
+}
+
+.tableScore {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, th, td {
+  width: 30%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/* ajoute une bordure aux images */
+.image {
+	border: 3px solid green;
+}
+
+/* change la bordure des images sur mouseHover */
+.image:hover {
+	border: 3px solid red;
+}
+
+/* change la police de l'element id 'result' */
+#result {
+	font-weight: bolder;	
+}
