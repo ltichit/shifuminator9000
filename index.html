@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+		<!-- le lien vers la page de style -->
 		<link rel="stylesheet" href="style.css">
         <title>Shifuminator 9000</title>
     </head>
     <body>
 	
+	<!-- l'import du fichier qui contient le javascript -->
 	<script src="script.js"></script>
 	
 	<div class="center">
@@ -16,9 +18,10 @@
 		<img class="image" src="pierre.jpg" alt="pierre" onclick="input(this.alt)"></img>
 		<img class="image" src="ciseaux.jpg" alt="ciseaux" onclick="input(this.alt)"></img>
 		
+		<!-- la zone ou le resultat sera affiché, vide au démarrage -->
 		<p id="result"></p>
 		
-		<p id="score">
+		<p>
 			<table class="tableScore">
 				<thead>
 					<tr>
@@ -30,6 +33,7 @@
 					<td>CPU</td>
 				</tr>
 				<tr>
+					<!-- les cases des scores, récupérables par leurs ids pour être mis à jour -->
 					<td id="scoreJoueur">0</td>
 					<td id="scoreCpu">0</td>
 				</tr>
@@ -41,7 +45,10 @@
 
 	</div>
 	
-	Contactez l'auteur: <a href="mailto:ltichit@gmail.com">ltichit@gmail.com</a>
+	<!-- ici on intégre le CSS directement -->
+	<div style="margin-left: 30px;">
+		Contactez l'auteur: <a href="mailto:ltichit@gmail.com">ltichit@gmail.com</a>
+	</div>
 			
 	</body>
 </html>
